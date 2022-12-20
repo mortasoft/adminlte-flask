@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    ports:
+      - "55555:5000"
+    working_dir: /app
